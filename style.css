@@ -1,8 +1,28 @@
-.nombre{
-    font-size: 7rem;
-}
-
 #home{
     background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
 }
 
+#knowledge{
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+    
+}
+
+#contact{
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+}
+
+#home .list-group-item, #contact .list-group-item, #knowledge .list-group-item{
+    background-color: transparent;
+    border: none;
+}
+
+
+
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Para centrar verticalmente */
+    text-align: center;
+}
